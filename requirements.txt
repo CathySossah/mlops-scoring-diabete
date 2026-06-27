@@ -6,7 +6,7 @@ matplotlib==3.11.0
 mlflow==3.13.0
 mlflow_skinny==3.13.0
 mlflow_tracing==3.13.0
-numpy==2.5.0
+numpy==2.2.6
 pandas==3.0.3
 pydantic==2.13.4
 Requests==2.34.2
