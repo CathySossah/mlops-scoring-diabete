@@ -5,7 +5,7 @@ from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("https://mlflow-diabete.onrender.com")
 mlflow.set_experiment("test_experiment")
 
 X, y = load_breast_cancer(return_X_y=True)
